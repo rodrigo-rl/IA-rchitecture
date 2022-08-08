@@ -27,7 +27,8 @@ To avoid overloading of the model, it has only been used 5 styles to train the m
 - Deconstructivism 
 - Chicago School architecture
 
-After having a trained model, it is going to be added other styles.
+After having a trained model, it is going to be added other styles to distinguish more styles.
 
-###2 -MACHINE LEARNING MODEL
+### 2 -MACHINE LEARNING MODEL
 
+The model selected to us in this application is a derived model from “ResNet50” where are added a Flattern layer, a Dense layer with 512 units and “relu” activation and a Dense layer with 5 units and “softmax” activation (based on this article of a similar problem: https://chroniclesofai.com/transfer-learning-with-keras-resnet-50/). 
