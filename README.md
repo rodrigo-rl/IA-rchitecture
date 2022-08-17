@@ -1,3 +1,5 @@
+![Architecture](https://user-images.githubusercontent.com/101878865/185236283-eb2187f0-0154-41cf-9727-3be28737e9d3.gif)
+
 # IArchitectonic (Architectonic Style Identifier with an IA) 
 
 This project has been developed as final assignment of the machine learning bootcamp of Core-Code school.
@@ -36,6 +38,7 @@ The model selected to us in this application is a derived model from “ResNet50
 ResNet50 is a very well known CNN model which can be found in the paper by K. He et al. (publised in 2017): Deep Residual Learning for Image Recognition (https://arxiv.org/abs/1512.03385). This CNN model was development to solve the degradation problem in a deep network (adding more layers to a sufficiently deep neural network would first see saturation in accuracy and then the accuracy degrades).
 
 The current model has reach an accuracy higher than 80%.
+![Streamlit-Results](https://user-images.githubusercontent.com/101878865/185236400-c42ce73a-e7c0-45f4-b3a0-2219cb46a8c3.jpg)
 
 ### 3- API
 
