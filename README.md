@@ -44,8 +44,9 @@ The current model has reach an accuracy higher than 80% as can be seen in the ne
 
 A Streamlit web has been developed to present all the data. There site is divided in two pages, the first one to explain how all the things works and the other one where all the magic happens. 
 
-![Uploading Streamlit-nothing.jpg…]
- 
+![Streamlit-nothing](https://user-images.githubusercontent.com/101878865/185240943-52c804a0-b378-4420-9775-c99d0ad86954.jpg)
+
+
 When an image is uploaded and confirmed, the model starts to look for similarities to sablishs the most probable architectural style and present the result. After that, the program calls through an API to a data base where can be found pictures and information of buildings of the same style.  
 
 ![Streamlit-Results](https://user-images.githubusercontent.com/101878865/185236400-c42ce73a-e7c0-45f4-b3a0-2219cb46a8c3.jpg)
