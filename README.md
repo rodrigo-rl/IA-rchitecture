@@ -29,6 +29,13 @@ To avoid overloading of the model, it has only been used 5 styles to train the m
 
 After having a trained model, it is going to be added other styles to distinguish more styles.
 
-### 2 -MACHINE LEARNING MODEL
+### 2- MACHINE LEARNING MODEL
 
 The model selected to us in this application is a derived model from “ResNet50” where are added a Flattern layer, a Dense layer with 512 units and “relu” activation and a Dense layer with 5 units and “softmax” activation (based on this article of a similar problem: https://chroniclesofai.com/transfer-learning-with-keras-resnet-50/). 
+
+ResNet50 is a very well known CNN model which can be found in the paper by K. He et al. (publised in 2017): Deep Residual Learning for Image Recognition (https://arxiv.org/abs/1512.03385). This CNN model was development to solve the degradation problem in a deep network (adding more layers to a sufficiently deep neural network would first see saturation in accuracy and then the accuracy degrades).
+
+The current model has reach an accuracy higher than 80%.
+
+### 3- API
+
