@@ -12,11 +12,12 @@ This project has been divided in some steps in order to organize the workload
 
 2-	Try and fit some machine learning models to select the most adequate for this kind of project.
 
-3-	Create an API in python connected to a DataBase to feed the model
+3-	Create an Streamlit page to present the results.
 
-4-	Create an Streamlit page to present the data from the API.
+4-	Create an API in python connected to a DataBase to feed the model.
 
-5-	Dockerize the code in Google Cloud to be sure that always is working
+5-	Next steps
+Dockerize the code in Google Cloud to be sure that always is working
 
 ### 1- DATASET PREPARATION
 
@@ -37,8 +38,15 @@ The model selected to us in this application is a derived model from “ResNet50
 
 ResNet50 is a very well known CNN model which can be found in the paper by K. He et al. (publised in 2017): Deep Residual Learning for Image Recognition (https://arxiv.org/abs/1512.03385). This CNN model was development to solve the degradation problem in a deep network (adding more layers to a sufficiently deep neural network would first see saturation in accuracy and then the accuracy degrades).
 
-The current model has reach an accuracy higher than 80%.
-![Streamlit-Results](https://user-images.githubusercontent.com/101878865/185236400-c42ce73a-e7c0-45f4-b3a0-2219cb46a8c3.jpg)
+The current model has reach an accuracy higher than 80% as can be seen in the next picture.
 
-### 3- API
+### 3- Streamlit page
+
+A Streamlit web has been developed to present all the data. There site is divided in two pages, the first one to explain how all the things works and the other one where all the magic happens. 
+
+![Uploading Streamlit-nothing.jpg…]
+ 
+When an image is uploaded and confirmed, the model starts to look for similarities to sablishs the most probable architectural style and present the result. After that, the program calls through an API to a data base where can be found pictures and information of buildings of the same style.  
+
+![Streamlit-Results](https://user-images.githubusercontent.com/101878865/185236400-c42ce73a-e7c0-45f4-b3a0-2219cb46a8c3.jpg)
 
