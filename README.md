@@ -51,3 +51,6 @@ When an image is uploaded and confirmed, the model starts to look for similariti
 
 ![Streamlit-Results](https://user-images.githubusercontent.com/101878865/185236400-c42ce73a-e7c0-45f4-b3a0-2219cb46a8c3.jpg)
 
+### 4 - API
+
+It has been created a Data Base in MongoDB with some examples
