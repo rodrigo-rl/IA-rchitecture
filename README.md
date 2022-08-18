@@ -1,6 +1,6 @@
 ![Architecture](https://user-images.githubusercontent.com/101878865/185236283-eb2187f0-0154-41cf-9727-3be28737e9d3.gif)
 
-# IArchitectonic (Architectonic Style Identifier with an IA) 
+# IA rchitecture (Architectural Style Identifier with an IA) 
 
 This project has been developed as final assignment of the machine learning bootcamp of Core-Code school.
 The aim of this project is to develop a machine learning code which can identify the architectonic style of a building just with a picture of your phone.
