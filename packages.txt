@@ -1,0 +1,7 @@
+PIL
+numpy
+tensorflow
+sklearn.preprocessing
+webbrowser
+blosc
+pymongo
