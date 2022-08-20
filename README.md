@@ -65,6 +65,8 @@ It has been identified two main paths to improve this project:
 
 ## Installation
 
+The trained model can be found inside **streamlit** folder
+
 To install and use the project, you have to download the **streamlit** folder and run it with the following line code: 
 
 ```ruby
