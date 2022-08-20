@@ -47,11 +47,11 @@ It has been created a Data Base in MongoDB with pictures and information of the 
 
 ### 4- Streamlit page
 
-A Streamlit web has been developed to present all the data. There site is divided in two pages, the first one to explain how all the things works and the other one where all the magic happens. 
+A Streamlit web has been developed to present all the data. There site is divided in two pages, the first one to explain how all the things works and the other one where all the magic happens (see next picture). 
 
 ![Streamlit-nothing](https://user-images.githubusercontent.com/101878865/185240943-52c804a0-b378-4420-9775-c99d0ad86954.jpg)
 
-When an image is uploaded and confirmed, the model starts to look for similarities to sablishs the most probable architectural style and present the result. After that, the program calls (through the API) to a MongoDB data base where can be found pictures and information of buildings of the same style.
+When an image is uploaded and confirmed, the model starts looking for similarities to stablishs the most probable architectural style and to presents the result. After that, the program calls (through the API) to a MongoDB data base where can be found pictures and information of buildings of the same style.
 
 ![Streamlit-Results](https://user-images.githubusercontent.com/101878865/185236400-c42ce73a-e7c0-45f4-b3a0-2219cb46a8c3.jpg)
 
