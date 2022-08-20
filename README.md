@@ -3,7 +3,7 @@
 # IA rchitecture (Architectural Style Identifier with an IA) 
 
 This project has been developed as final assignment of the machine learning bootcamp of Core-Code school.
-The aim of this project is to develop a machine learning code which can identify the architectonic style of a building just with a picture of your phone.
+The aim of this project is to develop a machine learning code which can identify the architectonic style of a building just with a picture.
 
 ## PROJECT STAGES
 This project has been divided in some steps in order to organize the workload
@@ -12,12 +12,11 @@ This project has been divided in some steps in order to organize the workload
 
 2-	Try and fit some machine learning models to select the most adequate for this kind of project.
 
-3-	Create an Streamlit page to present the results.
+3-	Create an API in python connected to MongoDB to feed the model.
 
-4-	Create an API in python connected to a DataBase to feed the model.
+4-	Create an Streamlit page to present the results.
 
 5-	Next steps
-Dockerize the code in Google Cloud to be sure that always is working
 
 ### 1- DATASET PREPARATION
 
@@ -40,17 +39,29 @@ ResNet50 is a very well known CNN model which can be found in the paper by K. He
 
 The current model has reach an accuracy higher than 80% as can be seen in the next picture.
 
-### 3- Streamlit page
+### 3 - API
+
+It has been created a Data Base in MongoDB with pictures and information of the buildings of each architectural styles (Authors, Year of construction and Name of the building). This Data Base has been dockerized and published in Heroku to be available at any time.
+
+![Mongo](https://user-images.githubusercontent.com/101878865/185746418-56d9652c-91fa-4909-b002-cfc87bda2a05.jpg)
+
+### 4- Streamlit page
 
 A Streamlit web has been developed to present all the data. There site is divided in two pages, the first one to explain how all the things works and the other one where all the magic happens. 
 
 ![Streamlit-nothing](https://user-images.githubusercontent.com/101878865/185240943-52c804a0-b378-4420-9775-c99d0ad86954.jpg)
 
-
-When an image is uploaded and confirmed, the model starts to look for similarities to sablishs the most probable architectural style and present the result. After that, the program calls through an API to a data base where can be found pictures and information of buildings of the same style.  
+When an image is uploaded and confirmed, the model starts to look for similarities to sablishs the most probable architectural style and present the result. After that, the program calls (through the API) to a MongoDB data base where can be found pictures and information of buildings of the same style.
 
 ![Streamlit-Results](https://user-images.githubusercontent.com/101878865/185236400-c42ce73a-e7c0-45f4-b3a0-2219cb46a8c3.jpg)
 
-### 4 - API
+### 5- Next Steps
 
-It has been created a Data Base in MongoDB with some examples
+It has been identified two main paths to improve this project:
+
+- Add more styles to make more complete and complex the model.
+- Add this project to Google Cloud to be sure that there is not faillure in the website if there are a lot of users. 
+
+## Acknowledgment
+
+I want to thank you all the members of Core Code School and especially to the proffersors Marc Pomar, Alvaro Lucas Cueva, Santino Lede and Daniel Alvarado for all the things that have teached me during the course.   
