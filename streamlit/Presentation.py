@@ -17,7 +17,7 @@ col1.text("")
 col1.subheader("3 - Enjoy the info!")
 
 #image of the process
-col2.image("Explanation.jpg")
+col2.image("./pictures/Explanation.jpg")
 
 st.text("")
 st.text("")
@@ -26,4 +26,4 @@ col1, col2, col3, col4,col5 =st.columns(5)
 
 col1.text("1- Postmodern style\n2- Novelty architecture\n3- International style\n4- Deconstructivsm\n5- Chicago School")
 
-st.sidebar.image("Architecture.gif")
+st.sidebar.image("./pictures/Architecture.gif")
