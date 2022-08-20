@@ -65,7 +65,8 @@ It has been identified two main paths to improve this project:
 
 ## Installation
 
-The trained model can be found inside **streamlit** folder
+The trained model can be found in this google drive folder: https://drive.google.com/drive/folders/1-A6qfB4NOYQYKniJ0aHphFf2uez9ZsB8?usp=sharing
+To use it you should download it and paste in the following path: **streamlit/Model/** 
 
 To install and use the project, you have to download the **streamlit** folder and run it with the following line code: 
 
