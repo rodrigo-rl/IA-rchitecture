@@ -5,7 +5,7 @@
 This project has been developed as final assignment of the machine learning bootcamp of Core-Code school.
 The aim of this project is to develop a machine learning code which can identify the architectonic style of a building just with a picture.
 
-## PROJECT STAGES
+## Project Stages
 This project has been divided in some steps in order to organize the workload.
 
 <details><summary>1-	Organize and prepare the DATASET.</summary>
@@ -62,7 +62,18 @@ It has been identified two main paths to improve this project:
 - Add this project to Google Cloud to be sure that there is not faillure in the website if there are a lot of users. 
 
 </details>
-## 
+
+## Installation
+
+To install and use the project, you have to download the **streamlit** folder and run it with the following line code: 
+
+```ruby
+   streamlit run Presentation.py
+```
+
+To add more information (buildings or new styles) in the data_base, download **Data_base** folder and use Jupyter notebook to do that (the URL has been deleted, contact with me to upload new information please!)
+
+To make modifications in the API, you can find all of the code inside **API** folder, where the endoints can be modificated as your wish.
 
 ## Acknowledgment
 
