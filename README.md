@@ -62,7 +62,7 @@ It has been identified two main paths to improve this project:
 - Add this project to Google Cloud to be sure that there is not faillure in the website if there are a lot of users. 
 
 </details>
-
+## 
 
 ## Acknowledgment
 
