@@ -1,0 +1,51 @@
+﻿Number;School;Name;Architects;Years;Link
+1;Chicago School of Architecture;First Leiter Building;William Le Baron Jenney;1879;./examples/chicago school/First_Leiter_Building.jpg
+2;Chicago School of Architecture;Auditorium Building ;Louis Sullivan - Dankmar Adler;1889;./examples/chicago school/Auditorium_Building.jpg
+3;Chicago School of Architecture;Monadnock Building;Burnham & Root - Holabird & Roche;1893;./examples/chicago school/Monadnock_Building.jpg
+4;Chicago School of Architecture;Gage Group Buildings;Holabird & Roche - Louis H. Sullivan;1898;./examples/chicago school/Gage_Group_Buildings.jpg
+5;Chicago School of Architecture;Wainwright Building;Adler & Sullivan;1891;./examples/chicago school/Wainwright_Building.jpg
+6;Chicago School of Architecture;U.S. Bank Building;Daniel Burham;1910;./examples/chicago school/US_Bank_Building.jpg
+7;Chicago School of Architecture;St. James Building;Henry John Klutho;1912;./examples/chicago school/St_James_Building.jpg
+8;Chicago School of Architecture;Nicholas Building;Harry Norris;1926;./examples/chicago school/Nicholas_Building.jpg
+9;Chicago School of Architecture;Swetland Building;Searles, Hirsh & Gavin;1910;./examples/chicago school/Swetland_Building.jpg
+10;Chicago School of Architecture;Marquette Building;Holabird & Roche;1895;./examples/chicago school/Marquette_Building.jpg
+11;Deconstructivism;Alpine Deconstructivism;Horst Lechner-Christine Lechner;2005;./examples/Deconstructivism/Alpine_Deconstructivism.jpg
+12;Deconstructivism;Dancing House;Vlado Milunić - Frank Gehry;1996;./examples/Deconstructivism/Dancing_House.jpg
+13;Deconstructivism;Domenig Steinhaus;Günther Domenig;2008;./examples/Deconstructivism/Domenig_Steinhaus.jpg
+14;Deconstructivism;Vitra Design Museum;Frank Gehry;1989;./examples/Deconstructivism/Vitra_Design_Museum.jpg
+15;Deconstructivism;Guggenheim Museum Bilbao;Frank Gehry;1997;./examples/Deconstructivism/Guggenheim_Museum_Bilbao.jpg
+16;Deconstructivism;Walt Disney Concert Hall;Frank Gehry;2003;./examples/Deconstructivism/Walt_Disney_Concert_Hall.jpg
+17;Deconstructivism;Hotel Porta Fira;Toyo Ito;2010;./examples/Deconstructivism/Hotel_Porta_Fira.jpg
+18;Deconstructivism;McCormick Tribune Campus Center;Rem Koolhaas;2003;./examples/Deconstructivism/McCormick_Tribune_Campus_Center.jpg
+19;Deconstructivism;New Synagogue of Mainz;Manuel Herz;2009;./examples/Deconstructivism/New_Synagogue_Mainz.jpg
+20;Deconstructivism;UFA Palace;Coop Himmelb(l)au;1998;./examples/Deconstructivism/UFA_Palace.jpg
+21;Postmodern style;Vanna Venturi House;Robert Venturi;1964;./examples/Postmodern Style/Vanna_Venturi_House.jpg
+22;Postmodern style;Castalia Building;Michael Graves;1998;./examples/Postmodern Style/Castalia_Building.jpg
+23;Postmodern style;Beverly Hills Civic Center;Charles Moore;1990;./examples/Postmodern Style/Beverly_Hills_Civic_Center.jpg
+24;Postmodern style;PPG Place Building;Philip Johnson;1984;./examples/Postmodern Style/PPG_Place_Building.jpg
+25;Postmodern style;Ghery Residence in Santa Monica;Frank Gehry;1978;./examples/Postmodern Style/Gehry_Residence_Santa_Monica.jpg
+26;Postmodern style;Petronas Towers;César Pelli;1996;./examples/Postmodern Style/Petronas_Towers.jpg
+27;Postmodern style;Secret Inteligence Service Building;Terry Farrell;1994;./examples/Postmodern Style/Secret_Inteligence_Service_Building.jpg
+28;Postmodern style;Sydney Opera House;Jorn Utzon;1973;./examples/Postmodern Style/Sydney_Opera_House.jpg
+29;Postmodern style;Kyoto Concert Hall;Isozaki Arata;1995;./examples/Postmodern Style/Kyoto_Concert_Hall.jpg
+30;Postmodern style;Messeturm Building;Jahn Helmut;1991;./examples/Postmodern Style/Messeturm_Building.jpg
+31;International style;Villa Saboye;Le Corbusier;1930;./examples/International Style/Villa_Saboye.jpg
+32;International style;Bauhaus School;Walter Gropius;1926;./examples/International Style/Bauhaus_School.jpg
+33;International style;Villa Tugendhat;Ludwig M. van der Rohe;1930;./examples/International Style/Villa_Tugendhat.jpg
+34;International style;Schocken Department Stores;Erich Mendelsohn;1930;./examples/International Style/Schocken_Department_Stores.jpg
+35;International style;McGraw-Hill Building;Raymond Hood - J. André Fouilhoux;1931;./examples/International Style/McGraw_Hill_Building.jpg
+36;International style;PSFS Building;William Lescaze - George Howe;1932;./examples/International Style/PSFS_Building.jpg
+37;International style;Lovell House;Richard Neutra;1928;./examples/International Style/Lovell_House.jpg
+38;International style;Fagus Factory ;Walter Gropius;1913;./examples/International Style/Fagus_Factory.jpg
+39;International style;Paimio Sanatorium;Alvar Aalto;1932;./examples/International Style/Paimio_Sanatorium.jpg
+40;International style;Rothenberg Siedlung;Otto Haesler;1931;./examples/International Style/Rothenberg_Siedlung.jpg
+41;Novelty architecture;Lucy the Elephant;James V. Laferty;1981;./examples/Novelty Architecture/Lucy_the_Elephant.jpg
+42;Novelty architecture;Brown Derby Restaurant;Wilson Mizner;1926;./examples/Novelty Architecture/Brown_Derby_Restaurant.jpg
+43;Novelty architecture;Wigwam Motel;Frank Redford - Chester Evert Lewis;1950;./examples/Novelty Architecture/Wigwam_Motel.jpg
+44;Novelty architecture;Coney Island Hot Dog Stand;Lloyd Williams;1966;./examples/Novelty Architecture/Coney_Island_Hot_Dog_Stand.jpg
+45;Novelty architecture;Randy's Donuts;Henry J. Goodwin;1953;./examples/Novelty Architecture/Randys_Donuts.jpg
+46;Novelty architecture;Shell Service Station;Joe H. Glenn Jr. - Bert L. Bennett;1930;./examples/Novelty Architecture/Shell_Service_Station.jpg
+47;Novelty architecture;Kansas City Public Library's parking garage;360 architects;2004;./examples/Novelty Architecture/Kansas_City_Public_Librarys_Parking.jpg
+48;Novelty architecture;Chiat/Day Building;Frank Gehry;2001;./examples/Novelty Architecture/Chiat_Day_Building.jpg
+49;Novelty architecture;National Fisheries Development Board Building;Central Public Works Department of India ;2012;./examples/Novelty Architecture/National_Fisheries_Development_Board_Building.jpg
+50;Novelty architecture;Kindergarten Wolfartsweier;Ayla Yöndel ;2002;./examples/Novelty Architecture/Kindergarten_Wolfartsweier.jpg
