@@ -87,6 +87,8 @@ Depending on what do you want to do, it isn't neccesary to download all the file
 
 *DataBase of cnn model-GH.ipynb* it is used to storage new versions of the model in a cooletion in MongoDB (with this should be possible updating the cnn model and use the newest version through the API without changing the streamlit docker, I am currently study this possibility). 
 
+In both Jupyter Notebook files have been deleted the MongoDB connection, so you can use yourself. But if you want to upload new information, contact with me please!
+
 ### API
 
 **API** folder contains all the code neccesary to connect the MongoDB database to streamlit and the files to create a docker version to deploy in a platfform like *Heroku*. *Main.py* is the API main file and inside of them there are the files of the three endpoints used in the project (which correspond to a file of **routers** folder):
@@ -95,7 +97,7 @@ Depending on what do you want to do, it isn't neccesary to download all the file
 - *image.py* --> This file obtains the only the image of the building with the name obtained of the previous endpoint.
 - *model.py* --> This file imports the last cnn model from MongoDB (not available yet).
 
-To create a docker image to deploy in Heroku should be typed in the terminal the following code (terminal should be located in *home/<user>/IA_rchitecture/API*):
+To create a docker image to deploy in Heroku should be present the files requirements *Dockerfile*, *requirements.txt* and *.dockerignore* and after, use the following code in the terminal (terminal should be located in *home/<user>/IA_rchitecture/API*):
 
 ```ruby
    docker build -t <image_name> .
@@ -114,16 +116,25 @@ To run locally it's necessary to download all this folder and write with the fol
    streamlit run Presentation.py
 ```
 
-
+Inside the folder **streamlit** are the following sub-folders and files:
+ 
+- **Model**
+- **data**
+- **pages**
+- **pictures**
+- *Presentation.py*
+- *Dockerfile*
+- *requirements.txt*
+- *.dockerignore*
 
 The trained model can be found in this google drive folder: https://drive.google.com/drive/folders/1-A6qfB4NOYQYKniJ0aHphFf2uez9ZsB8?usp=sharing
-To use it you should download it and paste in the following path: **streamlit/Model/** 
+To use it you should download it and paste in the following path: **streamlit/Model/** (this model is going to be updated with new styles).
 
-   
-   
-To add more information (buildings or new styles) in the data_base, download **Data_base** folder and use Jupyter notebook to do that (the URL has been deleted, contact with me to upload new information please!)
+In **data** folder is placed the connection to the API in Heroku (*get_data*py).
 
-To make modifications in the API, you can find all of the code inside **API** folder, where the endoints can be modificated as your wish.
+Inside **pages** can be found the second page of the streamlit (this part is automatically load when streamlit is running). Inside this page is the main part of the streamlit code.
+   
+**pictures** folder has the pictures needs to decorate streamlit and the rest of the files are used to create another docker image to deploy in Heroku.
 
 ## Acknowledgments
 
