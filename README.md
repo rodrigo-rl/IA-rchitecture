@@ -31,7 +31,7 @@ The model selected to us in this application is a derived model from “ResNet50
 
 ResNet50 is a very well known CNN model which can be found in the paper by K. He et al. (publised in 2017): Deep Residual Learning for Image Recognition (https://arxiv.org/abs/1512.03385). This CNN model was development to solve the degradation problem in a deep network (adding more layers to a sufficiently deep neural network would first see saturation in accuracy and then the accuracy degrades).
 
-The current model has reach an accuracy higher than 80% as can be seen in the picture of the next chapter.
+The model has been trained with Black and White images becuase I discover that the results are better than in color. The current model has reach an accuracy higher than 80% as can be seen in the picture of the next chapter.
 
 </details>
 
