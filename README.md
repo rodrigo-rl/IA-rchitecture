@@ -5,6 +5,8 @@
 This project has been developed as final assignment of the machine learning bootcamp of Core-Code school.
 The aim of this project is to develop a machine learning code which can identify the architectonic style of a building just with a picture.
 
+The 1.0 version can be found on-line in this direction: https://architectural.herokuapp.com/
+
 ## Project Stages
 This project has been divided in some steps in order to organize the workload.
 
@@ -63,7 +65,18 @@ It has been identified two main paths to improve this project:
 
 </details>
 
+## Mode of Use
+
+asdas
+
 ## Installation
+
+There are three folders that compose the whole project:
+- API
+- Data_base
+- streamlit
+
+
 
 The trained model can be found in this google drive folder: https://drive.google.com/drive/folders/1-A6qfB4NOYQYKniJ0aHphFf2uez9ZsB8?usp=sharing
 To use it you should download it and paste in the following path: **streamlit/Model/** 
