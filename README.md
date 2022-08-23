@@ -106,19 +106,25 @@ To deploy the docker in Heroku --> Follow the instruction in the app page.
 
 ### streamlit
 
-The trained model can be found in this google drive folder: https://drive.google.com/drive/folders/1-A6qfB4NOYQYKniJ0aHphFf2uez9ZsB8?usp=sharing
-To use it you should download it and paste in the following path: **streamlit/Model/** 
-
-To install and use the project, you have to download the **streamlit** folder and run it with the following line code: 
+All the code of the streamlit can be found in **streamlit** folder.
+   
+To run locally it's necessary to download all this folder and write with the following line code:
 
 ```ruby
    streamlit run Presentation.py
 ```
 
+
+
+The trained model can be found in this google drive folder: https://drive.google.com/drive/folders/1-A6qfB4NOYQYKniJ0aHphFf2uez9ZsB8?usp=sharing
+To use it you should download it and paste in the following path: **streamlit/Model/** 
+
+   
+   
 To add more information (buildings or new styles) in the data_base, download **Data_base** folder and use Jupyter notebook to do that (the URL has been deleted, contact with me to upload new information please!)
 
 To make modifications in the API, you can find all of the code inside **API** folder, where the endoints can be modificated as your wish.
 
-## Acknowledgment
+## Acknowledgments
 
 I want to thank you all the members of Core Code School and especially to the proffersors Marc Pomar, Alvaro Lucas Cueva, Santino Lede and Daniel Alvarado for all the things that have teached me during the course.   
