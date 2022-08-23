@@ -67,7 +67,8 @@ It has been identified two main paths to improve this project:
 
 ## Mode of Use
 
-asdas
+![screen-capture](https://user-images.githubusercontent.com/101878865/186217999-498a9c0d-ea71-4908-9784-6e71a200ebbb.gif)
+
 
 ## Installation
 
