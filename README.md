@@ -72,11 +72,28 @@ asdas
 ## Installation
 
 There are three folders that compose the whole project:
-- API
 - Data_base
+- API
 - streamlit
 
+Depending on what do you want to do, it isn't neccesary to download all the files. 
 
+### Data_base
+
+**Data_Base** folder allows to add more information to the Building Information Data Base (I have stored the information in MongoDB but can be used another Data Base). To add more information, it is necessary to:
+
+- 1 Fulfil the excel file *Buildings.xls* with the same structure and add the picture in the folder */Data_base/example/<name_style>*.
+- 2 Run in Jupyter Notebook *DATA_BASE Creation-GH.ipynb* <sub>(warning: paths can change depending your folder structure)</sub>
+
+*DataBase of cnn model-GH.ipynb* it is used to storage new versions of the model (the idea is to be able calling the newst model from the data base through the API, I am currently study this possibility). 
+
+### API
+
+**API** folder contains all the code neccesary to connect the MongoDB database to streamlit and the files to create a docker version to deploy in a pltafform like *Heroku*. *Main.py* is the API main file and inside of them there are the files of the three endpoints used in the project (which correspond to a file of **routers** folder):
+
+- *Styles.py* --> This file defines the endpoint to obtain the information of the building (name, architect, picture...). It select 3
+
+### streamlit
 
 The trained model can be found in this google drive folder: https://drive.google.com/drive/folders/1-A6qfB4NOYQYKniJ0aHphFf2uez9ZsB8?usp=sharing
 To use it you should download it and paste in the following path: **streamlit/Model/** 
