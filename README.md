@@ -85,13 +85,24 @@ Depending on what do you want to do, it isn't neccesary to download all the file
 - 1 Fulfil the excel file *Buildings.xls* with the same structure and add the picture in the folder */Data_base/example/<name_style>*.
 - 2 Run in Jupyter Notebook *DATA_BASE Creation-GH.ipynb* <sub>(warning: paths can change depending your folder structure)</sub>
 
-*DataBase of cnn model-GH.ipynb* it is used to storage new versions of the model (the idea is to be able calling the newst model from the data base through the API, I am currently study this possibility). 
+*DataBase of cnn model-GH.ipynb* it is used to storage new versions of the model in a cooletion in MongoDB (with this should be possible updating the cnn model and use the newest version through the API without changing the streamlit docker, I am currently study this possibility). 
 
 ### API
 
-**API** folder contains all the code neccesary to connect the MongoDB database to streamlit and the files to create a docker version to deploy in a pltafform like *Heroku*. *Main.py* is the API main file and inside of them there are the files of the three endpoints used in the project (which correspond to a file of **routers** folder):
+**API** folder contains all the code neccesary to connect the MongoDB database to streamlit and the files to create a docker version to deploy in a platfform like *Heroku*. *Main.py* is the API main file and inside of them there are the files of the three endpoints used in the project (which correspond to a file of **routers** folder):
 
-- *Styles.py* --> This file defines the endpoint to obtain the information of the building (name, architect, picture...). It select 3
+- *Styles.py* --> This file defines the endpoint to obtain the information of the building (name, architect, picture...). It select randomly 3 elements of the Data Base to be presented in streamlit.
+- *image.py* --> This file obtains the only the image of the building with the name obtained of the previous endpoint.
+- *model.py* --> This file imports the last cnn model from MongoDB (not available yet).
+
+To create a docker image to deploy in Heroku should be typed in the terminal the following code (terminal should be located in *home/<user>/IA_rchitecture/API*):
+
+```ruby
+   docker build -t <image_name> .
+   docker run
+```
+
+To deploy the docker in Heroku --> Follow the instruction in the app page. 
 
 ### streamlit
 
